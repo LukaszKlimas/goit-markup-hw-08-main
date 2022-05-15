@@ -1,0 +1,31 @@
+.logo {
+  font-family: var(--secondary-font);
+  color: $primary;
+  justify-content: center;
+  font-size: $font24;
+}
+
+.logo__color {
+  color: $accent;
+}
+
+.footer__logo {
+  font-family: var(--secondary-font);
+  margin-top: 60px;
+  color: $white;
+  padding-bottom: 20px;
+  display: flex;
+  font-weight: $medium;
+  font-size: $font26;
+  line-height: 1.192;
+  letter-spacing: $letter03;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    font-size: $font26;
+    line-height: 31px;
+    letter-spacing: $letter03;
+    margin-right: 93px;
+  }
+}
